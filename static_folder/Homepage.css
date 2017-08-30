@@ -1,0 +1,88 @@
+body{
+  width:100vw;
+  height:100vh;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.main-content{
+  margin-top: 20%;
+  display: felx;
+  align-items: center;
+   justify-content: center
+  height: 50%;
+    width: 50%;
+    float: left;
+    position: relative;
+    font-family:FV Almelo;
+    color: black;
+    background-color: white;
+    text-align: center;
+    position: absolute;
+}
+.PicOfMe{
+  /*height: 50%;
+    width: 50%;
+    float: left;
+     background-image: url("resources/picizzy.jpg");*/
+     /*background: url(/resources/picizzy.jpg);*/
+   width: 50%;
+   position: absolute;
+   right: 0px;
+   height: 100%;
+
+}
+.wrapper, html, body{
+    height: 100%;
+     overflow-y:hidden;
+}
+
+.button{
+  margin: auto;
+  margin-top: 20px;
+  position:relative;
+ width: 50%;
+ color: #ecf0f1;
+ text-decoration:none;
+ border-radius:5px;
+ border: solid 1px;
+ background: rgba(248,248,248,0.65);
+text-align:center;
+ color:black;
+ font-size:30px;
+ padding:16px 18px 14px;
+ -webkit-transition: all 0.1s;
+ -moz-transition: all 0.1s;
+ transition: all 0.1s;
+ }
+ /* Removes the underline from all button with an ancor tag from Python main.py */
+.button a{
+  text-decoration: none;
+  color:black;
+  font-size: 30px;
+  text-align:center;
+
+}
+.button:hover {
+    background:  #ff8c1a;
+}
+ #Israel{
+   display: block;
+ }
+ .FlexBox{
+   /* flex make the box fit in the same line */
+  display: flex;
+  /* This makes all of the objects move to the center */
+   justify-content: center;
+   /* Moves the itmes /box to the center of the page */
+   align-items: center;
+   /*width: 600px;*/
+ }
+ .Social_Media{
+   display: block;
+   position: fixed;
+    bottom: 0;
+ }
