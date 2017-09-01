@@ -19,24 +19,38 @@ import os
 import webapp2
 import logging
 from google.appengine.api import users
+from google.appengine.ext import ndb
+import datetime
+import json
+import unicodedata
+from google.appengine.api import users
+
+# the two lines of code below makes the jinja work
+jinja_environment = jinja2.Environment(loader=
+    jinja2.FileSystemLoader(os.path.dirname(__file__)))
 
 class HomePage(webapp2.RequestHandler):
     def get(self):
         template = jinja_environment.get_template('templates/HomePage.html')
         self.response.write(template.render())
 
-# the two lines of code below makes the jinja work
-jinja_environment = jinja2.Environment(loader=
-    jinja2.FileSystemLoader(os.path.dirname(__file__)))
+class AboutMe(webapp2.RequestHandler):
+    def get(self):
+        template = jinja_environment.get_template('templates/Aboutme.html')
+        self.response.write(template.render())
+
+class Contact(webapp2.RequestHandler):
+    def get(self):
+        template = jinja_environment.get_template('templates/Contact.html')
+        self.response.write(template.render())
 
 
 
 
 app = webapp2.WSGIApplication([
-    ('/', HomePage) #HomePage
-    # ('/Bio.html',IsraelInfo),
-    # ('/Israel.html',MainHandler),
-    # ('/Contact.html',ContactIsrael),
+    ('/', HomePage), #HomePage
+     ('/AboutMe.html',AboutMe),
+    ('/Contact.html',Contact)
     # ('/Blog.html',IsraelBlog),
     # ('/hello.html',Hello),
     # ('/Survey_input.html',SurveyHandler),

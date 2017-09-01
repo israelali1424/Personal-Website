@@ -8,6 +8,7 @@ body{
     margin: 0;
     padding: 0;
 }
+/* This is everything that is on the left side of the home page*/
 .main-content{
   margin-top: 20%;
   display: felx;
@@ -34,12 +35,13 @@ body{
    right: 0px;
    height: 100%;
 
+
 }
 .wrapper, html, body{
     height: 100%;
      overflow-y:hidden;
 }
-
+/* For the format of the all buttons on the homepage */
 .button{
   margin: auto;
   margin-top: 20px;
@@ -60,6 +62,7 @@ text-align:center;
  }
  /* Removes the underline from all button with an ancor tag from Python main.py */
 .button a{
+   display: block;
   text-decoration: none;
   color:black;
   font-size: 30px;
@@ -72,6 +75,7 @@ text-align:center;
  #Israel{
    display: block;
  }
+ /*  This syleing makes the social media icons able to fit next to each other */
  .FlexBox{
    /* flex make the box fit in the same line */
   display: flex;
@@ -82,7 +86,12 @@ text-align:center;
    /*width: 600px;*/
  }
  .Social_Media{
-   display: block;
+   display: inline;
    position: fixed;
     bottom: 0;
+  margin: auto;
+    padding: 9px;
+    height: -20px;
+    margin-left: 9px;
+    /*width: 20px;*/
  }
