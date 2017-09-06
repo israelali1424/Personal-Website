@@ -53,3 +53,60 @@ height: 100px;
   font-size: 70px;
   font-family: FV Almelo, sans-serif;
 }
+
+
+/* This all the style for the contact form */
+
+.red{
+    color:red;
+    }
+.form-area
+{
+    background-color: #FAFAFA;
+	padding: 10px 40px 60px;
+	margin: 10px 0px 60px;
+	border: 1px solid GREY;
+	}
+
+  .container{
+    margin-top: 200px;
+    float: left;
+position: absolute;
+left: 35%;
+  }
+
+  .form-area{
+    display: block;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  /* For the email link */
+  .text{
+    margin-top:200px;
+    text-align: center;
+    align-items: center;
+    font-size: 32px;
+    font-family: Courier, sans-serif;
+  }
+/* This code for mvp of my personal website social media links */
+.FlexBox{
+  /*margin-top:100px;*/
+
+  /* flex make the box fit in the same line */
+ display: flex;
+ /* This makes all of the objects move to the center */
+  justify-content: center;
+  /* Moves the itmes /box to the center of the page */
+  align-items: center;
+  /*width: 600px;*/
+}
+.Social_Media{
+
+  display: inline;
+  position: fixed;
+   bottom: 0;
+ margin: auto;
+   height: -20px;
+   margin-left: 12px;
