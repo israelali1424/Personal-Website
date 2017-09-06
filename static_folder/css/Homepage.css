@@ -18,7 +18,7 @@ body{
     width: 50%;
     float: left;
     position: relative;
-    font-family:FV Almelo;
+    font-family: Intro, sans-serif;
     color: black;
     background-color: white;
     text-align: center;
@@ -71,6 +71,9 @@ text-align:center;
 }
 .button:hover {
     background:  #ff8c1a;
+}
+#project-link{
+  margin-top: 0px;
 }
  #Israel{
    display: block;

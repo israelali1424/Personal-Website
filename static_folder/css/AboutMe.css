@@ -1,0 +1,131 @@
+/* This style for my name at the top left*/
+
+body{
+
+  /*background-color: powderblue;*/
+}
+/* Syle for the skyline main a photo the first section in About.hmtl */
+#top-background{
+    margin-top: 10px;
+  width: 100%;
+  height: 50%;
+  /*align-items: center;
+  justify-content: center;*/
+  background-image: url("/resources/photos/brooklyn-skyline.jpg");
+  background-attachment: fixed; /* This makes the iamge not move when scroll down the page */
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: -100px;
+}
+/* Stlye for the smallphoto of me */
+#smallphoto{
+  margin-top: 30px;
+border-radius: 250px;
+  width: 100px;
+height: 100px;
+}
+
+/* style for all of the links in my nav bar */
+.pagelinks{
+      margin-top: 30px;
+  float: right;
+  font-family: Intro ,sans-serif;
+  font-size: 34;
+  color: black;
+  text-decoration: none;
+  padding-left: 13px;
+}
+.project-link{
+  display: block;
+  align-items: center;
+  text-align: center;
+  font-family: Courier ,sans-serif;
+  font-size: 24px;
+  color: black;
+  text-decoration: underline;
+
+
+}
+/* This only here to me the space for nav bar look right */
+#blank{
+  color: transplant;
+  opacity: 0;
+
+}
+/* for the text that says brookyn native */
+.Into-text{
+  margin-top: -19px;
+  text-align: center;
+  display: block;
+  font-size: 34px;
+  font-family: Intro, sans-serif;
+}
+
+/* For all the image class objcect on this page (pics) */
+.image{
+  width: 100%;
+  height: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*background-image: url("/resources/FullBody.jpg");*/
+  background-attachment: fixed; /* This makes the iamge not move when scroll down the page */
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* styel for my headshot */
+#Headshot{
+border-radius: 450px;
+
+height: 200px;
+margin-bottom: -50px;
+}
+/* stlye for im Israel and etc */
+
+
+/* This is for all of the section to make the flex */
+.text-content{
+  display: flex;
+  /* This makes all of the objects move to the center */
+   justify-content: center;
+   /* Moves the itmes /box to the center of the page */
+   align-items: center;
+
+}
+/* Style for the about me text */
+#Hello{
+  margin-top: -40px;
+  margin-bottom: -10px;
+}
+/* This style for About-Me in the center left*/
+.Big-Text{
+
+  display: block;
+  font-size: 55px;
+  font-family: Intro, sans-serif;
+}
+#Resume-center{
+  text-align: center;
+  justify-content: center;
+
+}
+
+/* The styleing for all of the text that is on my page */
+.text{
+  text-align: center;
+  align-items: center;
+  font-size: 32px;
+  font-family: Courier, sans-serif;
+}
+.contnet{
+  display: flex;
+  /* This makes all of the objects move to the center */
+   justify-content: center;
+   /* Moves the itmes /box to the center of the page */
+   align-items: center;
+}
+
+/* Syle for the small photo of me on the left hand coner */

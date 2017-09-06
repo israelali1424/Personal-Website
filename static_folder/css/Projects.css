@@ -1,0 +1,130 @@
+body{
+  background-color: #2818a0; /* Dark blue*/
+  box-sizing: border-box;
+}
+#top-background{
+    margin-top: 10px;
+  width: 100%;
+  height: 50%;
+  /*align-items: center;
+  justify-content: center;*/
+  background-image: url("/resources/photos/brooklyn-skyline.jpg");
+  background-attachment: fixed; /* This makes the iamge not move when scroll down the page */
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 60px;
+}
+/* Stlye for the smallphoto of me */
+#smallphoto{
+  margin-top: 30px;
+border-radius: 250px;
+  width: 100px;
+height: 100px;
+}
+
+/* style for all of the links in my nav bar */
+.pagelinks{
+      margin-top: 30px;
+  float: right;
+  font-family: Intro ,sans-serif;
+  font-size: 34;
+  color: black;
+  text-decoration: none;
+  padding-left: 13px;
+}
+
+
+
+
+/* This only here to me the space for nav bar look right */
+#blank{
+
+  opacity: 0;
+
+}
+
+.Into-text{
+  margin-top: -19px;
+  text-align: center;
+  display: block;
+  font-size: 70px;
+  font-family: Intro, sans-serif;
+}
+
+.projects{
+  margin-top: -30px;
+    align="middle";
+  margin: auto;
+  /*display: flex;*/
+  /* This makes all of the objects move to the center */
+   justify-content: center;
+   /* Moves the itmes /box to the center of the page */
+   align-items: center;
+   background-color: #ffb366;
+   box-sizing: border-box;
+}
+
+#pic{
+  display: block;
+  margin: auto;
+  justify-content: center;
+/* Moves the itmes /box to the center of the page */
+align-items: center;
+align="middle";
+
+}
+/* style for the screen shot from checkiverstiy */
+#check-list-photo{
+  display: block;
+    margin: 0 auto;
+  margin-top: 30px;
+  width: 80%;
+  height: 40%;
+  box-sizing: border-box;
+  align="middle";
+}
+/* Style  for all the tiltes on the wepage  */
+.project-title{
+  text-align: center;
+  font-size: 42;
+  font-family: Intro, sans-serif;
+}
+/* style for what part of the projrcts I worked on */
+.what-I-did{
+  display: block;
+  text-align: center;
+  font-size: 22;
+  font-family: Intro, sans-serif;
+}
+/* Style for the descriptions of my projects */
+.description {
+  text-align: center;
+  align-items: center;
+  font-size: 23px;
+  font-family: Courier, sans-serif;
+
+}
+#Checkiversity-Link {
+  display: block;
+  color: black;
+  text-align: center;
+  align-items: center;
+  font-size: 23px;
+  font-family: Courier, sans-serif;
+}
+.project-link{
+  display: block;
+  color: black;
+  text-align: center;
+  align-items: center;
+  font-size: 23px;
+  font-family: Courier, sans-serif;
+}
+
+#last-project{
+margin-bottom: 30px;
+}
+.nothing{
+  opacity: 0;
+}
