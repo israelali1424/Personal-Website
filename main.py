@@ -43,7 +43,7 @@ class Contact(webapp2.RequestHandler):
     def get(self):
         template = jinja_environment.get_template('templates/Contact.html')
         self.response.write(template.render())
-    
+
 
 
 
