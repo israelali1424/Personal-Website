@@ -36,7 +36,7 @@ class HomePage(webapp2.RequestHandler):
 
 class AboutMe(webapp2.RequestHandler):
     def get(self):
-        template = jinja_environment.get_template('templates/Aboutme.html')
+        template = jinja_environment.get_template('templates/AboutMe.html')
         self.response.write(template.render())
 
 class Contact(webapp2.RequestHandler):
@@ -45,23 +45,15 @@ class Contact(webapp2.RequestHandler):
         self.response.write(template.render())
 
 
-
-
 class Projects(webapp2.RequestHandler):
     def get(self):
         template = jinja_environment.get_template('templates/Projects.html')
         self.response.write(template.render())
-
-
 
 app = webapp2.WSGIApplication([
     ('/', HomePage), #HomePage
      ('/AboutMe.html',AboutMe),
     ('/Contact.html',Contact),
      ('/Projects.html',Projects)
-    # ('/hello.html',Hello),
-    # ('/Survey_input.html',SurveyHandler),
-    # ('/',MainPage),
-    # ('/Adim',AdminPage)
 
 ], debug=True)

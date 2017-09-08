@@ -36,6 +36,13 @@ height: 100px;
   text-decoration: none;
   padding-left: 13px;
 }
+.pagelinks:hover{
+
+  text-decoration: underline;
+}
+
+
+
 .project-link{
   display: block;
   align-items: center;
