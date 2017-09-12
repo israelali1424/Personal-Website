@@ -90,23 +90,29 @@ left: 35%;
     font-size: 32px;
     font-family: Courier, sans-serif;
   }
+  .FlexBox{
+    /* flex make the box fit in the same line */
+   display: flex;
+   /* This makes all of the objects move to the center */
+    justify-content: center;
+    /* Moves the itmes /box to the center of the page */
+    align-items: center;
+    /*width: 600px;*/
+  }
 /* This code for mvp of my personal website social media links */
-.FlexBox{
-  /*margin-top:100px;*/
-
-  /* flex make the box fit in the same line */
- display: flex;
- /* This makes all of the objects move to the center */
-  justify-content: center;
-  /* Moves the itmes /box to the center of the page */
-  align-items: center;
-  /*width: 600px;*/
-}
-.Social_Media{
-
-  display: inline;
-  position: fixed;
+.Media{
+  display: flex;
+ position: fixed;
    bottom: 0;
- margin: auto;
+ /*margin: auto;
+   padding: 9px;
    height: -20px;
-   margin-left: 12px;
+   margin-left: 9px;*/
+   /*width: 20px;*/
+}
+.Social_Media {
+    bottom 0;
+      /* Give the logos the space betweent them */
+  padding-left: 20px;
+
+}

@@ -3,11 +3,11 @@ body{
   height:100vh;
 }
 
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+#name  {
+  font-size: 54px;
+  margin-bottom: -5px;
 }
+
 /* This is everything that is on the left side of the home page*/
 .main-content{
   margin-top: 20%;
@@ -23,6 +23,9 @@ body{
     background-color: white;
     text-align: center;
     position: absolute;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 .PicOfMe{
   /*height: 50%;
@@ -34,6 +37,9 @@ body{
    position: absolute;
    right: 0px;
    height: 100%;
+
+   overflow-x: hidden;
+   overflow-y: hidden;
 
 
 }
@@ -88,13 +94,22 @@ text-align:center;
    align-items: center;
    /*width: 600px;*/
  }
- .Social_Media{
-   display: inline;
-   position: fixed;
+
+ .Media{
+   justify-content: center;
+   display: flex;
+  position: fixed;
     bottom: 0;
-  margin: auto;
+  /*margin: auto;
     padding: 9px;
     height: -20px;
-    margin-left: 9px;
+    margin-left: 9px;*/
     /*width: 20px;*/
+ }
+ .Social_Media {
+    justify-content: center;
+     bottom 0;
+       /* Give the logos the space betweent them */
+   padding-left: 20px;
+
  }
